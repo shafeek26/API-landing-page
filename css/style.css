@@ -1,0 +1,251 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+header {
+  height: 400px;
+  width: 100vw;
+  background-color: #2827cc;
+  color: #ffffff;
+  padding: 20px;
+}
+nav {
+  float: right;
+  text-align: center;
+}
+.nav-item {
+  margin-right: 30px;
+}
+.nav-item-active {
+  margin-right: 30px;
+  background-color: #ffffff;
+  color: #2827cc;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.logo {
+  margin: 20px;
+}
+.header-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 20px;
+  line-height: 2;
+}
+.header-image {
+  float: right;
+  width: 500px;
+  margin-top: -240px;
+}
+.companies {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.company-items {
+  text-decoration: none;
+  margin: 10px;
+  color: #0d0d0d;
+  font-family: "Righteous";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* API section */
+
+.api {
+  margin-top: 100px;
+}
+.api-heading {
+  margin-left: 40px;
+  font-weight: 700;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.card-active {
+  background-color: #ffffff;
+  margin-right: 20px;
+  height: 200px;
+  box-shadow: 0 0 5px 0 #cad5e2;
+  border-radius: 10px;
+}
+.card {
+  height: 200px;
+  margin-left: 10px;
+}
+.card-logo {
+  margin: 20px 10px;
+  width: 40px;
+}
+.card-head-active {
+  color: #2827cc;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.card-head {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.card-body {
+  font-size: 12px;
+  padding: 5px;
+}
+
+/* blog section */
+
+.blog-heading {
+  margin-left: 50px;
+  margin-top: 100px;
+  font-family: "Poppins";
+  font-weight: 800;
+}
+.blog-cards {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+.blog-card {
+  position: relative;
+  display: flex;
+}
+.blog-content {
+  width: 250px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.blog-bottom {
+  position: absolute;
+  bottom: -20px;
+  right: 180px;
+}
+.blog-author {
+  white-space: nowrap;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+
+/* FAQ section styling */
+.faq-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cad5e2;
+  margin-top: 100px;
+  overflow-x: hidden;
+}
+.faq-content {
+  margin-left: 30px;
+}
+.faq-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.faq-content h4 {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.faq-content button {
+  background-color: #2827cc;
+  border: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+/* Download section */
+
+.download-section {
+  position: relative;
+  width: 100%;
+  max-width: 90%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-content span {
+  font-weight: 300;
+}
+.download-content h1 {
+  font-weight: 600;
+}
+.download-email input {
+  width: 300px;
+  background-color: #cad5e2;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 50px;
+  text-align: left;
+}
+.download-email button {
+  position: relative;
+  left: -40px;
+  background-color: #4747dc;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+/* Footer styling goes here */
+
+.footer-section {
+  height: 300px;
+  background-color: #2827cc;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.footer-logo {
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.list {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+}
+.list .list-items {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+.footer-logos {
+  width: 30px;
+  margin-right: 10px;
+}
+.footer-right {
+  margin-right: 20px;
+}
+.logos-list {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.logos-list .list-items {
+  margin-right: 10px;
+}
