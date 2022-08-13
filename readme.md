@@ -4,7 +4,7 @@
 
 # Project Name : API-service-page !
 
-In this project i have created a landing page from scratch. And i have learnt a lot of things like how to position HTML elements using common CSS selectors and position,i have also learnt about flexbox mainly in this project.
+In this project i have created a API service landing page from scratch. And i have learnt a lot of things like how to position HTML elements using common CSS selectors and position,i have also learnt about flexbox mainly in this project.
 
 ![HTML](https://img.shields.io/badge/-HTML-orange)
 ![positions](https://img.shields.io/badge/-CSS%20positions-blue)
