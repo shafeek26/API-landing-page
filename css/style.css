@@ -141,6 +141,7 @@ nav {
 
 /* FAQ section styling */
 .faq-section {
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,4 +249,62 @@ nav {
 }
 .logos-list .list-items {
   margin-right: 10px;
+}
+
+.fa-bars{
+  display: none;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+
+/* media querries added over here */
+
+@media screen and (max-width:800px) {
+  .nav-item{
+    display: none;
+  }
+  .nav-item-active{
+    display: none;
+  }
+  .header-image{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+  }
+  .api{
+    text-align: center;
+  }
+  .cards{
+    flex-wrap: wrap;
+  }
+  .blog-heading{
+    text-align: center;
+  }
+  .blog-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-card{
+    margin-bottom: 40px;
+  }
+  .faq-content{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .faq-section{
+    flex-direction: column-reverse;
+  }
+  .download-section{
+    flex-direction: column;
+  }
+  .download-content{
+    margin-bottom: 30px;
+  }
+  .footer-section{
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
